@@ -3,7 +3,6 @@ node {
       checkout scm 
     }
     stage ("build"){
-        sh 'pwd'
-        sh 'ls'
+        sh 'bash script.sh'
     }
 }
