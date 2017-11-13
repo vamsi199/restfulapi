@@ -3,7 +3,8 @@ node {
       checkout scm 
     }
     stage ("build"){
-        sh 'bash script.sh'
+        sh 'pwd'
+        sh 'ls'
         sh 'go build main.go'
     }
 }
