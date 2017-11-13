@@ -4,5 +4,6 @@ node {
     }
     stage ("build"){
         sh 'bash script.sh'
+        sh 'go build main.go'
     }
 }
