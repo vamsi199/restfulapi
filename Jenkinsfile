@@ -5,8 +5,9 @@ node {
     stage ("build"){
         sh 'pwd'
         sh 'ls'
-        sh 'cp main.go $GOPATH/src'
-        sh 'cd $GOPATH/src'sh 'pwd'
+        sh 'cp main.go $GOPATH/src/'
+        sh 'cd $GOPATH/src'
+        sh 'pwd'
         sh 'ls'
         
         sh 'go get github.com/gorilla/mux'
